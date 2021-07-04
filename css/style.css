@@ -1,50 +1,55 @@
-/*navBar*/
-.nav{
-    width: 73%;
-    padding: 1% 1% 1% 1%;
+body{
+    background-color: rgb(185, 226, 233);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.inline-block{
-    display:inline-block;
-    vertical-align:top;
+/*navbar*/
+.navigation{
+    display: flex;
+    flex: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(49, 77, 82);
+    display: flex;
+    justify-content: center;
 }
 
 .logo{
-    width: 23%;
-    padding: 1% 1% 1% 1%;
-    text-align: left;
+    cursor: pointer;
+    display: left;
+    padding: 1px;
+    margin: 0;
 }
 
-.ul{
-    width: 50%;
-    margin-left: auto;
+.nav{
+    display: inline-block;
+    vertical-align: top; 
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.midSection{
+    width: 400px;
+    margin: 120px auto 120px;
+    padding: 0 20px 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(128, 128, 128);
+    border: none;
+    border-radius: 50px
+    cursor: pointer
 }
 
 li{
-    text-decoration: none;
-    list-style-type: none;
-}
-
-
-/*heroImg*/
-.heroImg{
-    height: 600px;
-    padding:25px 25px 25px 25px;
-}
-
-.content{
-    width:500px;
-    margin:0 auto;
-}
-
-/*footer*/
-.footer{
-    background-color: #373738;
-    padding: 1% 1% 1% 1%;
-}
-
-.uList{
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
-    padding: 1% 1% 1% 1%;
+    padding: 5px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 1px;
+    margin: 1px;
 }
