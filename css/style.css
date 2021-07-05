@@ -1,6 +1,7 @@
 body{
     background-color: rgb(185, 226, 233);
     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 /*navbar*/
@@ -8,48 +9,57 @@ body{
     display: flex;
     flex: 100%;
     justify-content: space-around;
-    align-items: center;
-    padding: 30px 10%;
+    padding: 1%;
     background-color: rgb(49, 77, 82);
-    display: flex;
-    justify-content: center;
 }
 
 .logo{
-    cursor: pointer;
-    display: left;
-    padding: 1px;
-    margin: 0;
+    display: block;
 }
 
 .nav{
     display: inline-block;
     vertical-align: top; 
-    padding: 0px 20px;
-    margin: 0 auto;
+    padding: 0px auto;
+    margin: auto;
 }
 
+/*heroImage*/
 .midSection{
-    width: 400px;
-    margin: 120px auto 120px;
-    padding: 0 20px 20px;
-    border-radius: 6px;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    width: 0 auto;
 }
 
 button{
-    padding: 9px 25px;
-    background-color: rgb(128, 128, 128);
-    border: none;
-    border-radius: 50px
-    cursor: pointer
+    padding: 15px 50px;
+    background-color: rgb(97, 121, 128);
+    border: 1px;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
-li{
+.li{
+    background-color: rgb(74, 132, 143);
+    margin: 0;
+    padding: 01px 50px;
+    border-radius: 2px;
     display: inline-block;
-    vertical-align: top;
-    padding: 5px;
-    background-color: rgb(128, 128, 128);
-    border-radius: 1px;
-    margin: 1px;
+}
+
+.foot{
+    display: flex;
+    flex: 100%;
+    justify-content: space-around;
+    padding: 10px 10%;
+    background-color: rgb(49, 77, 82);
+
+    
 }
